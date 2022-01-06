@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(to right, rgb(255, 0, 0) ,rgb(66, 135, 245));
+}
+
+/* FLEXBOOK CONTAINER */
+.box {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* HEADING */
+h1 {
+    margin: 20px ;
+    padding-bottom: 40px;
+    font-size: 4rem;
+    font-family: 'Moo Lah Lah', cursive;
+    color:rgba(245, 202, 150, 0.952);
+    text-align: center;
+}
+
+/* BODY TEXT */
+h2 {
+    font-size: 2rem;
+    font-family: 'Questrial', sans-serif;
+    color: rgba(245, 202, 150, 0.952);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+/* RESULT AFTER MIXING COLORS */
+h3 {
+    color: rgb(32, 41, 41);
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+}
+
+/* FOOTER  */
+footer {
+    margin-top: 300px;
+    text-align: center;
+    font-size:18px;
+}
+
+.f-icon {
+    font-size: 35px;
+    margin: 10px;
+    color: azure;
+}
+
+.f-icon:hover {
+    color:gray;
+}
+
+/* LINE AT THE STARTING OF FOOTER */
+hr {
+    margin: 20px auto;
+    color: azure;
+    border: 1px solid azure;
+    max-width: 200px !important;
+    opacity: 0.8;  
+}
+
+/* MAKING RESPONSIVE FOR SMALL SCREENSIZE  */
+@media screen and (max-width: 370px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    .f-icon {
+        font-size: 25px;
+    }
+    
+}
